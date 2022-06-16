@@ -1,4 +1,4 @@
-package test.com.alexaitken.gildedrose;
+package test.com.gildedrose;
 
 import static org.junit.Assert.*;
 
@@ -6,8 +6,8 @@ import java.util.Arrays;
 
 import org.junit.Test;
 
-import com.alexaitken.gildedrose.Inventory;
-import com.alexaitken.gildedrose.Item;
+import com.gildedrose.Inventory;
+import com.gildedrose.Item;
 
 
 public class InventoryTest {

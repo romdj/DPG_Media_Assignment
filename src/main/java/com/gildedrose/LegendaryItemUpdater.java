@@ -1,4 +1,4 @@
-package com.alexaitken.gildedrose;
+package com.gildedrose;
 
 public class LegendaryItemUpdater extends ItemUpdater {
 
