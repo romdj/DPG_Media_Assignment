@@ -36,7 +36,6 @@ public class ItemUpdater {
 	protected int quantityAdjustment() {
 		return -1;
 	}
-
 	
 	private void applyAdjustment(Item item, int qualityAdjustment) {
 		int newQuality = item.getQuality() + qualityAdjustment;
@@ -48,6 +47,4 @@ public class ItemUpdater {
 		}
 		item.setQuality(newQuality);
 	}
-
-
 }

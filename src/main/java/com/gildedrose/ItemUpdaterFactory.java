@@ -1,21 +1,23 @@
 package com.gildedrose;
 
 
+import com.gildedrose.items.*;
+
 public class ItemUpdaterFactory {
 
 	public static ItemUpdater createItemUpdator(Item item) {
 		if (isLegendaryItem(item)) {
-			return new LegendaryItemUpdater(item);
+			return new Legendary(item);
 		}
 		if (isItemAgedBrie(item)) {
-			return new BrieUpdater(item);
+			return new Brie(item);
 		}
 		if (isItemBackStagePass(item)) {
-			return new BackStagePassItemUpdater(item);
+			return new BackStagePass(item);
 		}
 		
 		if (isConjuredItem(item)) {
-			return new ConjuredItemUpdater(item);
+			return new Conjured(item);
 		}
 
 		return new ItemUpdater(item);

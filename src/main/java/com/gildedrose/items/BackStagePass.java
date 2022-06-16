@@ -1,8 +1,11 @@
-package com.gildedrose;
+package com.gildedrose.items;
 
-public class BackStagePassItemUpdater extends ItemUpdater {
+import com.gildedrose.Item;
+import com.gildedrose.ItemUpdater;
 
-	public BackStagePassItemUpdater(Item item) {
+public class BackStagePass extends ItemUpdater {
+
+	public BackStagePass(Item item) {
 		super(item);
 	}
 
@@ -24,5 +27,4 @@ public class BackStagePassItemUpdater extends ItemUpdater {
 
 		return qualityAdjustment;
 	}
-
 }

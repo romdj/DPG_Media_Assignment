@@ -4,4 +4,6 @@ obj
 .vs
 vendor
 .idea
+build
+.gradle
 *.iml
